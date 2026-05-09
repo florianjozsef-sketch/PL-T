@@ -1,13 +1,14 @@
-
 {
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "PL-T",
   "scopeName": "source.plt",
   "patterns": [
     {
-      "match": "\\\\b(print|input)\\\\b",
+      "match": "\\b(print|input)\\b",
       "name": "keyword.control.plt"
     },
     {
-      "match": "\\".*?\\"",
+      "match": "\".*?\"",
       "name": "string.quoted.double.plt"
     }
   ]
