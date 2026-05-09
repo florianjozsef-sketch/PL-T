@@ -31,3 +31,4 @@ pyinstaller --onefile ProC.py --name ProC
 - compiler
 - interpreter
 - plt-language
+- vscode-extension
