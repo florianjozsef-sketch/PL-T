@@ -1,0 +1,30 @@
+
+{
+  "name": "pl-t-language",
+  "displayName": "PL-T Language",
+  "description": "PL-T programming language support",
+  "version": "0.0.1",
+  "publisher": "PL-T",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "plt",
+        "aliases": ["PL-T", "plt"],
+        "extensions": [".plt"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "plt",
+        "scopeName": "source.plt",
+        "path": "./syntaxes/plt.tmLanguage.json"
+      }
+    ]
+  }
+}
