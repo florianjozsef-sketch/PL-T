@@ -1,0 +1,21 @@
+
+# PL-T Syntax
+
+## print
+
+```plt
+print "Hello"
+```
+
+## input
+
+```plt
+input name
+```
+
+## variable
+
+```plt
+name = "Béla"
+print name
+```
